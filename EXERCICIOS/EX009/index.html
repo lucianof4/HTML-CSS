@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2> <!--Tipo de lista onde a ordem importa e se inserir um item no meio da lista posteriormente, ela renumera automaticamente.-->
+        <ol type="1"> <!--O parametro type serve para identificar o tipo de numeraçao, podendo ser nos seguintes estilos: 1, A, a, I, i. onde os ultimos são romanos-->
+            <li>Acordar</li> <!--a tag <li> serve para identificar o item da lista, para que entenda e seja renumerado automaticamente.-->
+            <li>Ligar para o Joao</li>
+            <li>Tomar café</li>
+            <li>Escovar os dentes</li>
+            <li>Ir para a faculdade</li>
+            <li>Almoçar</li>
+            <li>Ir para o trabalho</li>
+        </ol>
+    
+    <h2>Listas nao ordenadas</h2> <!--Tipo de lista onde a ordem não importa-->
+        <ol type="circle"><!--O parametro type serve para identificar o tipo de marcação, podendo ser nos seguintes estilos: circle, disc, square. onde os ultimos são romanos-->
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+        </ol>
+        <!--        -->
+    <h2>Juntando listas versão 1.0</h2>
+    <p>Minhas linguagens favoritas</p>  
+         <ol>
+            <li>Antigas</li>
+                <ol>
+                   <li>Clipper</li>
+                   <li>Visual basic</li>
+                   <li>Fortran</li>
+                   <li>Delphi</li>
+                </ol>
+            <li>Novas</li>
+                <ol start="5"> <!--O parametro start serve para identificar a posição no vetor que a numeração ou letras inicia. No caso de começar com letras, ainda assim o start deve ser colocado um numero indicando a posição da letra no alfabeto-->
+                    <li>PHP</li>
+                    <li>python</li>
+                    <li>JavaScript</li>
+                    <li>Kotlin</li>
+                </ol>
+        </ol>
+    <p>Meus jogos favoritos:</p>
+        <ol type="I">
+            <li>Nes</li>
+                <ul type="disc">
+                    <li>Mario Bross</li>
+                    <ul type="circle">
+                        <li>Mario Bross 3</li>
+                        <li>Mario lost levels</li>
+                    </ul>
+                    <li>Ninja Gaiden</li>
+                </ul>
+            <li>SNES</li>
+                <UL type="disc">
+                    <li>Mario</li>
+                    <li>Donkey Kong</li>
+                </UL>
+            <li>PlayStation</li>
+                <ul type="disc">
+                    <li>Final Fantasy</li>
+                    <li>Castlevania</li>
+                </ul>
+
+        </ol>
+        <!--        -->
+
+    <h2>Lista de definições</h2> <!--É uma lista onde se coloca o termo e a definição dele, como se fosse um dicionário-->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação de conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação pra a criação do desing de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a elaboração da interatividade do site</dd>
+    </dl>
+        
+</body>
+</html>

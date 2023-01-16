@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #70A5EA;
+    --cor1: #307FE6;  
+    --cor2: #2662B3;
+    --cor3: #153866;
+    --cor4: #5E6369;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    padding: 10px;
+    text-align: center;
+}
+
+header img{
+    max-width: 200px;
+    width: 100%;
+    display: inline;
+    
+}
+
+body{
+    background-color: #949fff8a;
+    font-family: var(--font-padrao);
+}
+
+nav{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+/*-------------------------------------------*/
+main{
+   
+    min-width: 300px;
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0px 0px 10px 0px;
+}
+
+article{
+    padding: 0px;
+   
+}
+
+article h2{
+    background-color: var(--cor3);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article strong{
+    color: var(--cor3);
+}
+.residencial{
+    background-color: red;
+    height: 250px;
+    min-width: 32%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 15px;
+    }
+.residencial p{
+        background-color: var(--cor3);
+        border-radius: 15px 15px 0px 0px;
+    }
+.comercial{
+    background-color: red;
+    height: 250px;
+    display: inline-block;
+    min-width: 33%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+.comercial p{
+    background-color: var(--cor3);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.industrial{
+    background-color: red;
+    display: inline-block;
+    height: 250px;
+    min-width: 33%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+.industrial p{
+    background-color: var(--cor3);
+    border-radius: 15px 15px 0px 0px;
+}
+.quemsomos{
+    background-color: white;
+    padding: 15px;
+    text-indent: 30px;
+    text-align: justify;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    
+}
+
+.obras{
+    margin-bottom: 20px;
+}
+
+.dimetal{
+    color: white;
+    text-align: center;
+    background-color: #153866;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.dimetal > a{
+    text-decoration: none;
+    color: white;
+}
+
+aside{
+    text-align: justify;    
+    font-size: .8em;
+    padding:10px;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 400px;
+    min-width: 300px;
+    margin-left: 55%;
+  }
+
+aside strong{
+    color: var(--cor3);
+}
+
+/*------------------*/
+footer{
+    
+    color: white;
+    text-align: center;
+    padding: 2px;
+    font-size: .8em;
+   
+}

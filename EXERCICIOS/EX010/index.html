@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>voce pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositorio publico no github</a></p> <!--Essa configuração target e rel é a configuração necessária para abrir o link em uma nova aba, e nao sobre a aba do site, o atributo rel indica para o navegador de quem é o link, se é autoral ou de terceiros (externo)
+    ‣next indica que o link é para a próxima parte do documento atual - usado para links locais/internos
+    ‣prev indica que o link é para a parte anterior do documento atual
+    ‣author indica que é um link para o site do autor do artigo atual
+    ‣external indica que é um link para outro site que não faz parte do site
+    -->
+    <p>Voce também pode acessar meu canal no <a href="https://youtube.com/cursoemvideo">youtube</a></p>
+
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira pagina do site, se voce quiser, voce pode também acessar a <a href="pag002.html" rel="next">segunda pagina</a> do site</p> <!--Quando se faz um link interno, APENAS QUANDO ESTÁ NA MESMA PÁGINA, não precisa usar a URL completa-->
+
+    <h3>Voce também pode acessar a nossa pagina de <a href="Noticias/pag003.html" rel="next" target="_self">notícias</a></h3>
+</body>
+</html>

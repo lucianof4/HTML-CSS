@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito</h2>
+        <p>Nessa frase, temos um termo em <b>negrito usando a tag &lt;b &gt;</b></p> <!--a utilização dessa tag é não semantica, ela apenas da forma para o texto.-->
+         <p>Nessa frase, temos um termo em <strong> negrito</strong> usando a tag &lt;strong &gt;</p> <!--a utilização dessa tag é a correta, pois passa para o código a informação semantica de destaque da palavra.--></p>
+
+    <h2>Itálico/enfase    </h2>
+        <p>Nesta frase temos um <i>termo em itálico</i>, usando a tag &lt;i&gt;</p><!--a utilização dessa tag é não semantica, ela apenas da forma para o texto.-->
+        <p>Nesta frase temos um <em>enfase</em>, usando a tag &lt;i&gt;</p><!--a utilização dessa tag é a correta, pois passa para o código a informação semantica de destaque da palavra.-->
+    <h2>Texto marcado</h2>
+    <p>podemos criar também um <mark>texto marcado</mark> usando a tag &lt;mark&gt;.</p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste paragrafo</p> <!--utiliza-se apenas a tag small, para criar letras maiores, usa-se CSS3-->
+
+    <h2>Texto deletado</h2>
+    <p>podemos marcar <del>um texto excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+    
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois</p> <!--tag semantica, passa a informação para o código que o texto foi inserido depois-->
+    <p>Existe também o <u>sublinhado</u> com a tag U</p> <!--Essa tag produz um resultado parecido com a anterior, porém, ela se trata apenas de uma tag de formatação, ela não passa significado lógico. Para este efeito, o mais indicado é usar CSS3-->
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo: H<sub>2</sub>0</p>
+
+</body>
+</html>
