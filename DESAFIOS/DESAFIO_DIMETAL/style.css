@@ -64,7 +64,9 @@ article strong{
     color: var(--cor3);
 }
 .residencial{
-    background-color: red;
+    background-image: url(Imagens/residencial.jpeg);
+    background-size: 140%;
+    background-repeat: no-repeat;
     height: 250px;
     min-width: 32%;
     display: inline-block;
@@ -73,13 +75,18 @@ article strong{
     font-size: larger;
     font-weight: bolder;
     border-radius: 15px;
+    border: 1px solid var(--cor4);
+    box-shadow: black 1px 1px 1px;
+    
     }
 .residencial p{
         background-color: var(--cor3);
         border-radius: 15px 15px 0px 0px;
     }
 .comercial{
-    background-color: red;
+    background-image: url(Imagens/comercial.jpeg);
+    background-size: 140%;
+    background-repeat: no-repeat;
     height: 250px;
     display: inline-block;
     min-width: 33%;
@@ -88,6 +95,8 @@ article strong{
     font-size: larger;
     font-weight: bolder;
     border-radius: 15px;
+    border: 1px solid var(--cor4);
+    box-shadow: black 1px 1px 1px;
 }
 .comercial p{
     background-color: var(--cor3);
@@ -95,7 +104,9 @@ article strong{
 }
 
 .industrial{
-    background-color: red;
+    background-image: url(Imagens/industrial.jpeg);
+    background-size: 120%;
+    background-repeat: no-repeat;
     display: inline-block;
     height: 250px;
     min-width: 33%;
@@ -104,6 +115,8 @@ article strong{
     font-size: larger;
     font-weight: bolder;
     border-radius: 15px;
+    border: 1px solid var(--cor4);
+    box-shadow: black 1px 1px 1px;
 }
 .industrial p{
     background-color: var(--cor3);
