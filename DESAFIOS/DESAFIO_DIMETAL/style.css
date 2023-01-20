@@ -67,6 +67,7 @@ article strong{
     background-image: url(Imagens/residencial.jpeg);
     background-size: 140%;
     background-repeat: no-repeat;
+    background-position: right center;
     height: 250px;
     min-width: 32%;
     display: inline-block;
@@ -86,6 +87,7 @@ article strong{
 .comercial{
     background-image: url(Imagens/comercial.jpeg);
     background-size: 140%;
+    background-position: center center;
     background-repeat: no-repeat;
     height: 250px;
     display: inline-block;
@@ -107,6 +109,7 @@ article strong{
     background-image: url(Imagens/industrial.jpeg);
     background-size: 120%;
     background-repeat: no-repeat;
+    background-position: center center;
     display: inline-block;
     height: 250px;
     min-width: 33%;
