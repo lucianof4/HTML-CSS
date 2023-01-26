@@ -5,9 +5,15 @@
 /*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Passion One', cursive;
+    --fonte3:'Sriracha', cursive;
+}
 /*==================================== CABEÇALHO*/
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte1);
     margin: 0;
 }
 header{
@@ -29,7 +35,8 @@ header a:hover{
 }
 
 header h1{
-    font-family: 'passion one', cursive;
+    font-family: var(--fonte2);
+    font-variant: small-caps;
     font-weight: 700;
     font-size: 4em;
 }
@@ -37,14 +44,19 @@ header h1{
 article{
     font-size: larger;
     line-height: 2em;
-    font-family: 'sriracha',cursive;
+    font-family: var(--fonte3);
     font-size: 200%;
 }
 .padrao{
     padding: 10px;
 }
 
-#texto{
+section#segunda > p{
+    background-color: rgba(0, 0, 0, 0.418);
+    max-width:max-content;
+    padding: 2px;
+}
+section#quarta > p{
     background-color: rgba(0, 0, 0, 0.418);
     max-width:max-content;
     padding: 2px;

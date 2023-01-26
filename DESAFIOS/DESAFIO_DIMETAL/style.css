@@ -140,12 +140,33 @@ article strong{
     margin-bottom: 20px;
 }
 
+#foto-paralax{
+    height: 400px;;
+    background-image: url(Imagens/silos-reduzida.JPEG);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: white;
+
+}
+
 .dimetal{
     color: white;
     text-align: center;
-    background-color: #153866;
+    background-image: linear-gradient(to bottom, #17478649, transparent);
     margin-bottom: 10px;
     border-radius: 10px;
+    width: max-content;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    
 }
 .dimetal > a{
     text-decoration: none;
