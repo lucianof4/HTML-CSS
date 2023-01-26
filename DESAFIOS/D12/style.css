@@ -70,7 +70,8 @@ section#quarta > p{
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
-    box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.616);
+    box-shadow: inset 2px 2px 5px 1px rgba(0, 0, 0, 0.616);
+    text-shadow: 1px 1px 0px black;
 }
 
 #quarta{
@@ -81,7 +82,7 @@ section#quarta > p{
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
-    box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.616);
+    box-shadow: inset 2px 2px 5px 1px rgba(0, 0, 0, 0.616);
 }
 /*==================================== RODAPÉ*/
 
