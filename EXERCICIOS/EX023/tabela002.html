@@ -19,6 +19,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative; /*deve colocar o posicionamento relativo para fazer com  que o cabeçalho fique fixo*/
         }
         td, th{
             border: 1px solid black;
@@ -28,6 +29,16 @@
         thead, tfoot{
             background-color: grey;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
         
         td.pos{
@@ -207,13 +218,19 @@
 
     <tfoot>
         <tr>
-            <td></td>
-            <th scope="row">Total de Habitantes</th>
+            
+            <th scope="row" colspan="2">Total de Habitantes</th>
             <td class="num"><strong>210.147.125</strong></td>
             
         </tr>
     </tfoot>
 </table>
-    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eum enim architecto tempora labore praesentium soluta, obcaecati minima iusto ullam pariatur quam expedita similique consequuntur dignissimos doloremque corrupti possimus laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, atque. Molestias mollitia temporibus sunt, ea quod voluptatem error, aliquid illo eveniet voluptate esse nisi rem itaque vitae optio quo eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit dolorem hic ipsum eos facilis earum rerum! Sequi laborum blanditiis labore qui, sint dolore, nam exercitationem suscipit omnis explicabo praesentium odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, atque aperiam ipsa inventore impedit ut distinctio? Deserunt dignissimos iure repellendus. Commodi voluptas molestias sit, facere voluptate sequi ipsam. Veniam, repudiandae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eum enim architecto tempora labore praesentium soluta, obcaecati minima iusto ullam pariatur quam expedita similique consequuntur dignissimos doloremque corrupti possimus laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, atque. Molestias mollitia temporibus sunt, ea quod voluptatem error, aliquid illo eveniet voluptate esse nisi rem itaque vitae optio quo eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit dolorem hic ipsum eos facilis earum rerum! Sequi laborum blanditiis labore qui, sint dolore, nam exercitationem suscipit omnis explicabo praesentium odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, atque aperiam ipsa inventore impedit ut distinctio? Deserunt dignissimos iure repellendus. Commodi voluptas molestias sit, facere voluptate sequi ipsam. Veniam, repudiandae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eum enim architecto tempora labore praesentium soluta, obcaecati minima iusto ullam pariatur quam expedita similique consequuntur dignissimos doloremque corrupti possimus laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, atque. Molestias mollitia temporibus sunt, ea quod voluptatem error, aliquid illo eveniet voluptate esse nisi rem itaque vitae optio quo eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit dolorem hic ipsum eos facilis earum rerum! Sequi laborum blanditiis labore qui, sint dolore, nam exercitationem suscipit omnis explicabo praesentium odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, atque aperiam ipsa inventore impedit ut distinctio? Deserunt dignissimos iure repellendus. Commodi voluptas molestias sit, facere voluptate sequi ipsam. Veniam, repudiandae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eum enim architecto tempora labore praesentium soluta, obcaecati minima iusto ullam pariatur quam expedita similique consequuntur dignissimos doloremque corrupti possimus laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, atque. Molestias mollitia temporibus sunt, ea quod voluptatem error, aliquid illo eveniet voluptate esse nisi rem itaque vitae optio quo eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit dolorem hic ipsum eos facilis earum rerum! Sequi laborum blanditiis labore qui, sint dolore, nam exercitationem suscipit omnis explicabo praesentium odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, atque aperiam ipsa inventore impedit ut distinctio? Deserunt dignissimos iure repellendus. Commodi voluptas molestias sit, facere voluptate sequi ipsam. Veniam, repudiandae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eum enim architecto tempora labore praesentium soluta, obcaecati minima iusto ullam pariatur quam expedita similique consequuntur dignissimos doloremque corrupti possimus laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, atque. Molestias mollitia temporibus sunt, ea quod voluptatem error, aliquid illo eveniet voluptate esse nisi rem itaque vitae optio quo eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit dolorem hic ipsum eos facilis earum rerum! Sequi laborum blanditiis labore qui, sint dolore, nam exercitationem suscipit omnis explicabo praesentium odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, atque aperiam ipsa inventore impedit ut distinctio? Deserunt dignissimos iure repellendus. Commodi voluptas molestias sit, facere voluptate sequi ipsam. Veniam, repudiandae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eum enim architecto tempora labore praesentium soluta, obcaecati minima iusto ullam pariatur quam expedita similique consequuntur dignissimos doloremque corrupti possimus laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, atque. Molestias mollitia temporibus sunt, ea quod voluptatem error, aliquid illo eveniet voluptate esse nisi rem itaque vitae optio quo eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit dolorem hic ipsum eos facilis earum rerum! Sequi laborum blanditiis labore qui, sint dolore, nam exercitationem suscipit omnis explicabo praesentium odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, atque aperiam ipsa inventore impedit ut distinctio? Deserunt dignissimos iure repellendus. Commodi voluptas molestias sit, facere voluptate sequi ipsam. Veniam, repudiandae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eum enim architecto tempora labore praesentium soluta, obcaecati minima iusto ullam pariatur quam expedita similique consequuntur dignissimos doloremque corrupti possimus laborum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, atque. Molestias mollitia temporibus sunt, ea quod voluptatem error, aliquid illo eveniet voluptate esse nisi rem itaque vitae optio quo eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit dolorem hic ipsum eos facilis earum rerum! Sequi laborum blanditiis labore qui, sint dolore, nam exercitationem suscipit omnis explicabo praesentium odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, atque aperiam ipsa inventore impedit ut distinctio? Deserunt dignissimos iure repellendus. Commodi voluptas molestias sit, facere voluptate sequi ipsam. Veniam, repudiandae.</p>
 </body>
 </html>

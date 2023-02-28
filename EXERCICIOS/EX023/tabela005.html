@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+
+    <style>
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .destaque{
+            background-color: rgb(42, 165, 108);
+        }
+
+        col.cnome{
+            background-color: rgb(42, 130, 165);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio Tabela</h1>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissao</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr class="destaque">
+            <td>Luciano</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Brunna</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td>Cejane</td>
+            <td>F</td>
+            <td>37</td>
+            <td>Vendedora</td>
+        </tr>
+        <tr>
+            <td>Sidney</td>
+            <td>M</td>
+            <td>40</td>
+            <td>Biólogo</td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
